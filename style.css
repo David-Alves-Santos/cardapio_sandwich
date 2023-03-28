@@ -117,7 +117,18 @@ button{
     display: flex;
     
     align-items: center;
-   
-   
-    
+}
+
+/* pagina do humbuger */
+
+.sandwich_big{
+    background-color: #F7CA0F;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}
+
+.img_big{
+    width: 290px;
+
 }
