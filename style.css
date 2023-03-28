@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&family=Rowdies&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #4D2E00;
+}
+
+.logo{
+    
+    width: 200px;
+    position: absolute;
+    margin: -110px auto 0 22%;
+    
+    
+}
+
+.principal{
+    background-color: #F7CA0F;
+    border-radius: 15px;
+    margin: 0 5%;
+}
+
+.menu{
+    display: flex;
+    padding: 40px 0 0 0;
+    align-items: center;
+    position: relative;
+    margin-top: 70px;
+    
+}
+
+.esquerda{
+    width: 55%;
+    margin-left: 5%;
+}
+
+.direita{
+    width: 30%;
+}
+
+.box_humburger{
+    padding: 5%;
+    margin-top: 12px;
+    background-color: rgba(255, 147, 4, .25);
+    border-radius: 20px;
+    
+}
+
+.titulo{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    color: #4D2E00;
+    font-size: 10.5px;
+    z-index: 0;
+    margin: 0px;
+}
+
+.descricao{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 7.5px;
+    margin: 5px 0 7px 0;
+    font-weight: bold;
+}
+
+button{
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+}
+
+.botao_valor{
+    width: 50px;
+    background-color: #F9361B;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.botao_adicional{
+    width: 113px;
+    background-color: #2D9800;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+
+.botao_combo{
+    margin-top: 5px;
+    width: 168px;
+    background-color: #4D2E00;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+
+.img_hamburger{
+   margin-top: 15%;
+    width: 130px;
+}
+
+.divisoria_sandwich{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.mini_sandwich{
+    width: 40px;
+}
+
+.menu2{
+    display: flex;
+    
+    align-items: center;
+   
+   
+    
+}
